@@ -15,5 +15,10 @@ public class PlayerAnimationEvents : MonoBehaviour
     {
         _animator.SetTrigger("spin");
     }
+
+    public void Punch()
+    {
+        _animator.SetTrigger("punch");
+    }
     
 }
